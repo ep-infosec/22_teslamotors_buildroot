@@ -1,0 +1,6 @@
+config BR2_PACKAGE_MMC_UTILS
+	bool "mmc-utils"
+	help
+	  MMC utils
+
+	  https://git.kernel.org/cgit/linux/kernel/git/cjb/mmc-utils.git

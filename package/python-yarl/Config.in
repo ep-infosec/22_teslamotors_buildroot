@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_YARL
+	bool "python-yarl"
+	depends on BR2_PACKAGE_PYTHON3
+	depends on BR2_PACKAGE_PYTHON_MULTIDICT
+	help
+	  Python Package - Yet another URL library
+
+	  https://pypi.org/project/yarl/

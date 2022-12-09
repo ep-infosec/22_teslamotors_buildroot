@@ -1,0 +1,12 @@
+config BR2_PACKAGE_PYTHON_AIOHTTP
+	bool "python-aiohttp"
+	depends on BR2_PACKAGE_PYTHON3
+	depends on BR2_PACKAGE_PYTHON_CHARDET
+	depends on BR2_PACKAGE_PYTHON_MULTIDICT
+	depends on BR2_PACKAGE_PYTHON_ASYNC_TIMEOUT
+	depends on BR2_PACKAGE_PYTHON_YARL
+	help
+	  Python package - Async http client/server framework (asyncio)
+
+	  https://pypi.org/project/aiohttp/
+
